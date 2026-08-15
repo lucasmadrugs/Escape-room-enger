@@ -886,7 +886,7 @@
   document.querySelectorAll('.audio-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const num = btn.dataset.audio;
-      const src = `audio${num}.mp3`;
+      const src = `audio/audio${num}.mp3`;
 
       // Stop any currently playing audio
       if (currentAudio) {
